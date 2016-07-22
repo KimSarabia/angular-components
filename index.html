@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-heroComponentSimple-production</title>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="index.js"></script>
+  <script src="scoutDetail.js"></script>
+
+
+
+</head>
+<body ng-app="sailorMoonApp">
+  <!-- components match only elements -->
+<div ng-controller="mainCtrl as ctrl">
+  <b>Sailor Scout</b><br>
+  <scout-detail scout="ctrl.scout"></scout-detail>
+</div>
+</body>
+</html>
